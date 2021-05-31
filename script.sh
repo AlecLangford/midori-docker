@@ -33,4 +33,4 @@ fi
 
 vncserver $DISPLAY -geometry $RESOLUTION -rfbport $VNC_PORT && \
 tail -f /root/.vnc/*.log & \
-midori -e Navigationbar -e Statusbar $URL
+firefox $URL
