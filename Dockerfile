@@ -12,6 +12,7 @@ RUN apt-get update -qq && apt-get install -f -y \
     xvfb \
     xterm \
     i3-wm \
+    firefox \
     x11-xserver-utils
 RUN wget -O midori.deb http://midori-browser.org/downloads/midori_0.5.11-0_amd64_.deb && \
     dpkg --unpack midori.deb && \
